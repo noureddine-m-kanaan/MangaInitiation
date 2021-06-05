@@ -1,9 +1,8 @@
 <table class="table table-bordered table-striped">
     <thead>
         <th>Id</th>
-        <th>Titre</th>
-        <th>Prix</th>
-        <th>Couverture</th>
+        <th>Nom</th>
+        <th>Prenom</th>
     </thead>
    @foreach($dessinateurs as $dessinateur) 
    <tr>

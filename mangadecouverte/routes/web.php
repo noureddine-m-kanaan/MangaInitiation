@@ -14,12 +14,12 @@ use App\Http\Controllers\DessinateurController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-/*
+
 Route::get('/', function () {
     return view('welcome');
-});*/
+});
 
 
-Route::get('/', [MangaController::class, 'index']);
-Route::get('de', [DessinateurController::class, 'index']);
+Route::get('mangas', [MangaController::class, 'index']);
+Route::get('dessinateurs', [DessinateurController::class, 'index']);
 
