@@ -4,7 +4,7 @@
 @endsection
 
 @section('titreItem')
-    <h1> Tous les dessinateurs : </h1>
+    <h1> Tous les scenaristes : </h1>
 @endsection
 
 @section('contenu')
@@ -15,11 +15,11 @@
             <th>Nom</th>
             <th>Prenom</th>
         </thead>
-    @foreach($dessinateurs as $dessinateur) 
+    @foreach($scenaristes as $scenariste) 
     <tr>
-            <td class="table-primary">{{ $dessinateur->id_dessinateur }} </td>
-            <td>{{ $dessinateur->nom_dessinateur }} </td>
-            <td class="table-primary">{{ $dessinateur->prenom_dessinateur }} </td>
+            <td class="table-primary">{{ $scenariste->id_scenariste }} </td>
+            <td>{{ $scenariste->nom_scenariste }} </td>
+            <td class="table-primary">{{ $scenariste->prenom_scenariste }} </td>
         </tr>
         @endforeach
     </table>
